@@ -19,7 +19,7 @@
 
   /* Change font size of headings */
  header h1 {
-    padding: 1%;
+  padding: 1%;
    background-color: #c7c7c7;
    color: #13293d;
    font-size: x-large;
@@ -40,9 +40,11 @@
 
   nav li {
     color: #4c585e;
-    font-weight: bold;
-    list-style-type: none;  
+    font-weight: bold; 
   }
+
+  li {
+    list-style-type: none;}
 
   div h2 {
     display: flex;
