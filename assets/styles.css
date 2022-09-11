@@ -1,6 +1,5 @@
 * {
-    box-sizing: border-box;
-    background-color:#777777
+    background-color:#ffe4e4
   }
   body {
     display: flex;
@@ -15,6 +14,7 @@
     align-items: center;
     background-color: #13293d;
   }
+
   /* Change font size of headings */
  header h1 {
    background-color: #c7c7c7;
@@ -22,6 +22,7 @@
    font-size: x-large;
    font-size: 200%;
   }
+
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -29,26 +30,33 @@
     min-width: 500px;
     
   }
+
   nav ul {
     background-color:#13293d
   }
+
   nav ul a {
     background-color:#13293d
   }
+
   article {
     display: flex;
     flex-wrap: wrap;
   }
+
   nav {
     background-color: #13293d;
   }
+
   nav li {
     color: #065075;
     font-weight: bold; 
   }
+
   li {
     list-style-type: none;
   }
+
   div h2 {
     display: flex;
     flex-direction: row;
@@ -63,31 +71,38 @@
     color: #88d172;
     align-items: center;
   }
+
   main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
   }
+
   aside {
     flex: 1;
     padding: .5%;
     font-size: 300%;
   }
+
   section {
     flex: 2;
     padding: 20px;
   }
+
   main p {
      padding: 20px;
   }
+
   menu {
     flex: 2;
     padding: 20px;
   }
+
   footer p {
     display: flex;
     justify-content: center;
   }
+
   aside p {
     font-size: large;
     font-weight: bold;
