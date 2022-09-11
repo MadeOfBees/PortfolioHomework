@@ -35,11 +35,12 @@
     flex-wrap: wrap;
   }
 
-  nav a {
+  nav li {
     color: #4c585e;
     font-weight: bold;
-    text-decoration: none;
+    list-style-type: none;  
   }
+
   div p {
     
   }
