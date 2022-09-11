@@ -14,11 +14,9 @@
     justify-content: space-between;
     align-items: center;
     background-color: #13293d;
-    color: #70c1c7;
   }
   /* Change font size of headings */
  header h1 {
-  padding: 1%;
    background-color: #c7c7c7;
    color: #13293d;
    font-size: x-large;
@@ -28,18 +26,29 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    min-width: 300px;
+    min-width: 500px;
+    
+  }
+  nav ul {
+    background-color:#13293d
+  }
+  nav ul a {
+    background-color:#13293d
   }
   article {
     display: flex;
     flex-wrap: wrap;
   }
+  nav {
+    background-color: #13293d;
+  }
   nav li {
-    color: #4c585e;
+    color: #065075;
     font-weight: bold; 
   }
   li {
-    list-style-type: none;}
+    list-style-type: none;
+  }
   div h2 {
     display: flex;
     flex-direction: row;
