@@ -8,21 +8,24 @@
     flex-direction: column;
     flex-wrap:wrap
   }
+  
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
     background-color: #13293d;
-    color: #c7c7c7;
+    color: #70c1c7;
   }
-  
+
   /* Change font size of headings */
  header h1 {
-    font-size: 400%;
+    padding: 1%;
+   background-color: #c7c7c7;
+   color: #13293d;
+   font-size: x-large;
+   font-size: 200%;
   }
-  
-  
+
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -41,27 +44,27 @@
     list-style-type: none;  
   }
 
-  div p {
+  div h2 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    height: 2%;
+    height: 4%;
     width: 99%;
     font-size: large;
     font-weight: bold;
   }
-  main p {
+
+  main {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
   }
 
   aside {
     flex: 1;
     background-color: #ffffff;
-    padding: 20px;
-    align-self: flex-start;
-    font-size: larger;
+    padding: .5%;
+    font-size: 300%;
   }
   
   section {
@@ -70,6 +73,11 @@
     padding: 20px;
   }
   
+  main p {
+    align-self: center;
+    padding: 20px;
+    
+  }
   menu {
     flex: 2;
     background-color: rgb(255, 255, 255);
@@ -79,4 +87,9 @@
   footer p {
     display: flex;
     justify-content: center;
+  }
+
+  aside p {
+    font-size: large;
+    font-weight: bold;
   }
