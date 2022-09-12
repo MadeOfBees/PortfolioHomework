@@ -1,136 +1,173 @@
 * {
-    background-color:#ffe4e4
-  }
-  body {
-    display: flex;
-    font-family: Arial;
-    flex-direction: column;
-    flex-wrap:wrap
-    
-  }
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #13293d;
-  }
-
-  /* Change font size of headings */
- header h1 {
-   background-color: #c7c7c7;
-   color: #13293d;
-   font-size: x-large;
-   font-size: 200%;
-  }
-
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    min-width: 500px;
-  }
-
-  nav ul {
-    background-color:#13293d
-  }
-
-  nav ul a {
-    background-color:#13293d
-  }
-
-  article {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    background-color: #13293d;
-  }
-
-  nav li {
-    color: #065075;
-    font-weight: bold; 
-  }
-
-  li {
-    list-style-type: none;
-  }
-
-  div h2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    height: 100px;
-    font-size: large;
-    font-weight: bold;
-    background-image: url(../assets/Falco.jpg);
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: cover;
-    color: #88d172;
-    align-items: center;
-  }
-
-  .ILove {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-  .Lamp {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100px;
-    font-size: large;
-    font-weight: bold;
-  }
-
-.lamp1 {
-  background-image: url(../assets/Lamp1.jpg);
-  
+  background-color: #ffe4e4
 }
-.lamp2 {
+
+body {
+  display: flex;
+  font-family: Arial;
+  flex-direction: column;
+  flex-wrap: wrap
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #13293d;
+}
+
+/* Change font size of headings */
+header h1 {
+  background-color: #c7c7c7;
+  color: #13293d;
+  font-size: x-large;
+  font-size: 200%;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-width: 500px;
+}
+
+nav {
+  background-color: #13293d;
+}
+
+nav ul {
+  background-color: #13293d
+}
+
+nav ul a {
+  background-color: #13293d
+
+}
+
+nav li {
+  color: #065075;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+div h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 100px;
+  font-size: large;
+  font-weight: bold;
+  background-image: url(../assets/Falco.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  color: #88d172;
+  align-items: center;
+  margin: 0;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+}
+article p{
+  font-size: large;
+  font-weight: bold;
+  padding: 0;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  border-right: #065075 solid 10px;
+  margin-right: 9px;
+}
+aside > p{
+  font-size: large;
+  font-weight: bold;
+  padding: 0;
+  margin-right: 350px;
+}
+.iLove {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.lamp {
+
+  background-repeat: no-repeat;
+  min-height: 300px;
+  min-width: 500px;
+  font-size: large;
+  font-weight: bold;
+  background-color: #794444;
+  color: white;
+  background-size: cover;
+}
+
+#lamp1 {
+  background-image: url(../assets/Lamp1.jpg);
+  min-width: 1000px;
+}
+
+#lamp2 {
   background-image: url(../assets/Lamp2.jpg);
 }
-.lamp3 {
+
+#lamp3 {
   background-image: url(../assets/Lamp3.jpg);
 }
-.lamp4 {
+
+#lamp4 {
   background-image: url(../assets/Lamp4.jpg);
 }
-.lamp5 {
+
+#lamp5 {
   background-image: url(../assets/Lamp5.jpg);
 }
 
+/* The user's cursor is positioned over the element */
+button:hover {
+  color: #5290b9;
+  border: #88d172;
+  box-shadow: 0 0 10px rgba(180, 180, 180, 0.301) inset;
+}
 
-  aside {
-    flex: 1;
-    padding: .5%;
-    font-size: 300%;
-  }
+/* The user is actively pressing down on the element */
+button:active {
+ color: white;
+ border: white;
+}
 
-  section {
-    flex: 2;
-    padding: 20px;
-  }
 
-  main p {
-     padding: 20px;
-  }
 
-  menu {
-    flex: 2;
-    padding: 20px;
-  }
+aside {
+  flex: 1;
+  padding: .5%;
+  font-size: 300%;
+}
 
-  footer p {
-    display: flex;
-    justify-content: center;
-  }
+section {
+  flex: 2;
+  padding: 20px;
+}
 
-  aside p {
-    font-size: large;
-    font-weight: bold;
-  }
+menu {
+  flex: 2;
+  padding: 20px;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+}
