@@ -28,7 +28,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     min-width: 500px;
-    
   }
 
   nav ul {
@@ -72,11 +71,39 @@
     align-items: center;
   }
 
-  main {
+  .ILove {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
   }
+  .Lamp {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    font-size: large;
+    font-weight: bold;
+  }
+
+.lamp1 {
+  background-image: url(../assets/Lamp1.jpg);
+  
+}
+.lamp2 {
+  background-image: url(../assets/Lamp2.jpg);
+}
+.lamp3 {
+  background-image: url(../assets/Lamp3.jpg);
+}
+.lamp4 {
+  background-image: url(../assets/Lamp4.jpg);
+}
+.lamp5 {
+  background-image: url(../assets/Lamp5.jpg);
+}
+
 
   aside {
     flex: 1;
