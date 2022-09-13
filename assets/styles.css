@@ -1,3 +1,4 @@
+/* Sets EVERYTHING, WILDCARD!! */
 * {
   background-color: #ffe4e4
 }
@@ -30,7 +31,8 @@ ul {
   justify-content: space-around;
   min-width: 500px;
 }
-
+/* Yeah, so the next few lines are spaghetti but I couldn't figure out how to
+simplify it further */
 nav {
   background-color: #13293d;
 }
@@ -54,7 +56,9 @@ li {
   
 }
 
-
+/* Adds a divider with a starry background (Not named after starfox Falco,
+ was the name of the artist of the first image I was using but I swiched 
+ Images and just never changed the name of the file) */
 div h2 {
   display: flex;
   flex-direction: row;
@@ -95,6 +99,7 @@ aside > p{
   padding: 0;
   margin-right: 350px;
 }
+/* Set up our parent (container) */
 .iLove {
   display: flex;
   flex-flow: row wrap;
@@ -103,7 +108,7 @@ aside > p{
   margin: 0;
   list-style: none;
 }
-
+/* Then our child (items) */
 .lamp {
 
   background-repeat: no-repeat;
@@ -115,7 +120,7 @@ aside > p{
   color: white;
   background-size: cover;
 }
-
+/* And now we add each specific img to each flexbox box */
 #lamp1 {
   background-image: url(../assets/Lamp1.jpg);
   min-width: 1000px;
@@ -167,7 +172,7 @@ menu {
   flex: 2;
   padding: 20px;
 }
-
+/* Wasn't in the GIF but made it anyway */
 footer p {
   display: flex;
   justify-content: center;
