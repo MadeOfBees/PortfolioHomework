@@ -36,12 +36,12 @@ nav {
 }
 
 nav ul {
-  background-color: #13293d
+  background-color: #13293d;
 }
 
 nav ul a {
-  background-color: #13293d
-
+  background-color: #13293d;
+  border-bottom: #bebebe 1px;
 }
 
 nav li {
@@ -51,6 +51,7 @@ nav li {
 
 li {
   list-style-type: none;
+  
 }
 
 
